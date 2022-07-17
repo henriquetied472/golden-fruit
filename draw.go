@@ -25,7 +25,7 @@ func Draw(cv *canvas.Canvas) {
 
 	//score
 	cv.SetFillStyle("#ffffff")
-	cv.SetFont("Roboto-Regular.ttf", 15)
+	cv.SetFont("~/.goldenfruit/Roboto-Regular.ttf", 15)
 	cv.FillText(fmt.Sprint("Score: ", p.Score), 20, 20)
 
 	//fps
